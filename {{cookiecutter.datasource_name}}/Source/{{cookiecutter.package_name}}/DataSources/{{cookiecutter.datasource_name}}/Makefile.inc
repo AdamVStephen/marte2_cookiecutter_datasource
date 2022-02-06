@@ -1,6 +1,6 @@
 {{cookiecutter.license}}
 
-OBJSX={{cookiecutter.gam_name}}.x
+OBJSX={{cookiecutter.datasource_name}}.x
 
 PACKAGE={{cookiecutter.package_name}}/GAMs
 
@@ -22,8 +22,8 @@ INCLUDES += -I$(MARTe2_DIR)/Source/Core/Scheduler/L4Messages
 
 
 all: $(OBJS) $(SUBPROJ) \
-	$(BUILD_DIR)/{{cookiecutter.gam_name}}$(LIBEXT) \
-	$(BUILD_DIR)/{{cookiecutter.gam_name}}$(DLLEXT)
+	$(BUILD_DIR)/{{cookiecutter.datasource_name}}$(LIBEXT) \
+	$(BUILD_DIR)/{{cookiecutter.datasource_name}}$(DLLEXT)
 	    echo  $(OBJS)
 
 include $(MAKEDEFAULTDIR)/MakeStdLibRules.$(TARGET)
