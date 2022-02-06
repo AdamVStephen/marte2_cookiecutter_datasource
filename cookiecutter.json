@@ -1,0 +1,14 @@
+{
+    "datasource_name" : "MyDataSource",
+    "package_name" : "{{cookiecutter.package_name}}",
+    "description" : "Data Source for the MARTe2 system.",
+    "license" : "# License : {{cookiecutter.license}}",
+    "author" : "{{cookiecutter.author}}",
+    "date" : "{{cookiecutter.date}}",
+    "timestamp" : "{{cookiecutter.timestamp}}",
+    "copyright" : "{{cookiecutter.copyright}}",
+    "implementation_details" : "{{cookiecutter.implementation_details}}",
+    "interface_details" : "{{cookiecutter.interface_details}}",
+    "test_include_guard" : "{{cookiecutter.datasource_name|upper}}TEST_H_",
+    "datasource_include_guard" : "{{cookiecutter.datasource_include_guard}}"
+}
